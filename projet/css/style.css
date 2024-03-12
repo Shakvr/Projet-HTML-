@@ -1,0 +1,55 @@
+
+
+body {   
+        display:flex;
+        flex-direction:column; 
+        background-image: url("../img/wallpaper.jpg")fixed repeat top left;
+ }
+
+
+#entete h1{
+    color: white;
+}
+
+#entete{
+background-size: ;
+background-color: black ;
+}
+
+#entete ul{
+        list-style-type: none;
+        display: flex;
+        justify-content : space-around;
+        font-family: 'permanent_markerregular';
+       
+}
+#entete a {
+        text-decoration:none;
+        color:whitesmoke;
+        font-size: 16px;
+}
+h1 {
+    text-align: center;
+}
+
+#corp{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+#p1{
+    font-size: 20px;
+
+}
+
+#img2{
+    justify-content: end;
+
+}
+
+#pied{
+    display: flex;
+    justify-content:flex-end ;
+    font-size: 10px;
+}
